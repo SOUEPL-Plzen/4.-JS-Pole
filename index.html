@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="/script/script.js" defer></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h1>Nákupní košík</h1>
+        </section>
+        <section>
+            <input type="text" id="add-component">
+            <button onclick="Add()">Přidej do košíku</button>
+        </section>
+        <section>
+           <!-- Select je element, který slouží jako rodič pro elementy option.
+                Option jsou prvky v seznamu, které se zde generují pomocí funkce v JS. 
+           --> 
+            <select type="text" id="kosik-nabidka"></select>
+            <button onclick="Odeber()">Odeber z košíku</button>
+        </section>
+        <section>
+            <h3>Naše nabídka</h3>
+            <p id="content"></p>
+        </section>
+        <section>
+            <h3>Výpis košíků</h3>
+            <p id="user-cart"></p>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
